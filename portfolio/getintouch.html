@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Zeyada&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="getintouch.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-icon">&#9670;</span>
+            LENS A LINE
+        </div>
+        <nav class="navbar">
+            <a href="portfolio.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="work.html">Work</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Contact Us
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        FAQs
+                    </div>
+                    <div class="card-body">
+                        <div class="accordion" id="accordionFAQ">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What types of photography services do you offer?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        We offer a range of photography services including portraits, events, weddings, commercial shoots, and custom photo sessions tailored to your needs.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How can I book a photography session?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        You can book a session by filling out the contact form on our website or by reaching out to us directly via email or phone. We'll get in touch with you to discuss details and availability.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Do you provide digital copies of the photos?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        Yes, we provide high-resolution digital copies of all your photos. Additionally, we offer options for prints and albums if you prefer physical copies.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        What is your pricing structure?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        Our pricing varies depending on the type and duration of the session. Please contact us for a personalized quote based on your specific requirements.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row mt-5">
+            <div class="col-md-4 flex-card">
+                <div class="card">
+                    <div class="card-front d-flex align-items-center justify-content-center p-3">
+                        <h5 class="text-center">Photography Services</h5>
+                    </div>
+                    <div class="card-back">
+                        <p>Discover our wide range of photography services. From portraits to event coverage, we capture moments with precision and artistry.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 flex-card">
+                <div class="card">
+                    <div class="card-front d-flex align-items-center justify-content-center p-3">
+                        <h5 class="text-center">Custom Prints</h5>
+                    </div>
+                    <div class="card-back">
+                        <p>Order custom prints of your favorite photos. Available in various sizes and finishes to suit your taste.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 flex-card">
+                <div class="card">
+                    <div class="card-front d-flex align-items-center justify-content-center p-3">
+                        <h5 class="text-center">Workshops</h5>
+                    </div>
+                    <div class="card-back">
+                        <p>Join our photography workshops to enhance your skills. Learn from professionals and improve your craft.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <footer class="footer">
+        <p>Thank You.Visit Again!</p>
+    </footer>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+
+    </script>
+</body>
+</html>
